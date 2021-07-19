@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Starscreams",
-            targets: ["Starscreams"]),
+            targets: ["Starscream"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,8 +19,8 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
-            name: "Starscreams",
-            url: "https://library.cometchat.io/ios/v2.0/xcode12/Starscream.xcframework.zip",
+            name: "Starscream",
+            url: "https://library.cometchat.io/ios/v2.0/xcode12/Starscream.xcframework_1.zip",
             checksum: "b0e9a80270f0e03d824e168620f0bd4c4f2aebd9050aa5c3ff724ceb86b950ba")
     ]
 )
